@@ -121,7 +121,7 @@ if __name__ == '__main__':
     print("=================================")
     print("SUM BY REDUCE")
     lis = [3, 5, 6, 3, 6]
-    sum_by_reduce(lis)
+    print(sum_by_reduce(lis))
     print("=================================")
 
     print([[".".join("{}".format(randint(0, 255)) for x in range(4))]for i in range(4)])
